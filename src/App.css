@@ -1,6 +1,7 @@
 .App {
   font-family: Arial, sans-serif;
   text-align: center;
+  position: relative;
 }
 
 header {
@@ -51,4 +52,37 @@ section {
   nav li {
     margin: 10px 0;
   }
+}
+
+.theme-toggle-button {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.theme-toggle-button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
 }

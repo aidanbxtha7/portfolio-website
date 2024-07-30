@@ -5,12 +5,18 @@ import Resume from './components/Resume';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import { useTheme } from './theme';
 
 const App = () => {
+  const { theme, toggleTheme } = useTheme();
+
   return (
     <div className="App">
       <header>
         <h1>My Portfolio</h1>
+        <button className="theme-toggle-button" onClick={toggleTheme}>
+          {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
+        </button>
         <nav>
           <ul>
             <li><a href="#about">About Me</a></li>
