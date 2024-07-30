@@ -6,6 +6,8 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import { useTheme } from './theme';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 const App = () => {
   const { theme, toggleTheme } = useTheme();
