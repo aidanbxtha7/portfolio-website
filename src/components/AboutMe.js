@@ -7,7 +7,7 @@ const AboutMe = () => {
       <div className="about-me-content">
         <div className="profile-card">
           <div className="profile-pic-wrapper">
-            <img src="https://img.icons8.com/?size=100&id=aHIGI7zDzmgQ&format=png&color=000000" alt="Profile" className="profile-pic" />
+            <img src="https://img.freepik.com/premium-photo/man-with-glasses-laptop-with-cloud-background_553012-97845.jpg?w=740" alt="Profile" className="profile-pic" />
           </div>
         </div>
 
