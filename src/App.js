@@ -7,28 +7,14 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import { useTheme } from './theme';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import TopSection from './components/TopSection'; // Import TopSection
 
 const App = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <div className="App">
-      <header>
-        <h1>My Portfolio</h1>
-        <button className="theme-toggle-button" onClick={toggleTheme}>
-          {theme === 'light' ? 'Dark Mode' : 'Light Mode'}
-        </button>
-        <nav>
-          <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#resume">Resume</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+    <div className={`App ${theme}`}>
+      <TopSection toggleTheme={toggleTheme} theme={theme} /> 
       <main>
         <AboutMe />
         <Resume />
