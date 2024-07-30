@@ -10,6 +10,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import TopSection from './components/TopSection'; 
 import LoadingSpinner from './components/LoadingSpinner';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import Footer from './components/Footer';
 
 const App = () => {
   const { theme, toggleTheme } = useTheme();
@@ -43,6 +44,7 @@ const App = () => {
         </CSSTransition>
         </TransitionGroup>
       </main>
+      <Footer />
     </div>
   );
 };

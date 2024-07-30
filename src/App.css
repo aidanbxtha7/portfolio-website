@@ -86,7 +86,7 @@ p {
 button {
   font-family: 'Poppins', sans-serif;
 }
-
+/* Transitions, not styling colours*/
 .fade-enter {
   opacity: 0;
 }
