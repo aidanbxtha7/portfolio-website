@@ -1,0 +1,126 @@
+/* Styling for the About Me section */
+.about-me {
+    background: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about-me-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .profile-card {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-pic-wrapper {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  .profile-pic-wrapper:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid #007bff;
+    transition: transform 0.3s;
+  }
+  
+  .profile-pic-wrapper:hover .profile-pic {
+    transform: scale(1.1);
+  }
+  
+  /* Timeline Styles */
+  .timeline {
+    margin-top: 40px;
+  }
+  
+  .timeline h3 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+  
+  .timeline-item:before {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background: #007bff;
+    height: 100%;
+    left: 20px;
+    top: 0;
+    border-radius: 50%;
+  }
+  
+  .year {
+    font-size: 1.25rem;
+    color: #007bff;
+    font-weight: bold;
+    margin-right: 20px;
+    width: 100px;
+    text-align: right;
+  }
+  
+  .timeline-content {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .timeline-content h4 {
+    font-size: 1.125rem;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .timeline {
+      padding: 0 10px;
+    }
+  
+    .timeline-item {
+      padding-left: 20px;
+    }
+  
+    .year {
+      font-size: 1.125rem;
+      width: auto;
+      text-align: left;
+    }
+  }
+  
