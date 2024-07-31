@@ -17,6 +17,7 @@ This is my portfolio website built with React.
 - **JavaScript**: For interactivity and logic.
 - **HTML**: Structure of the website.
 - **GitHub Pages**: Hosting the website.
+- **EmailJS**: Email API that sends me emails.
 
 ## Getting Started
 
