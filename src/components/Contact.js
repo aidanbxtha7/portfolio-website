@@ -16,7 +16,7 @@ const Contact = () => {
     emailjs.send('service_xwn87xa', 'template_72dr7ni', formData, 'oGozuMThqCjW2ifEd')
       .then((result) => {
         setStatus('Message sent successfully!');
-        setFormData({ name: '', email: '', message: '' }); // Clear form after success
+        setFormData({ name: '', email: '', message: '' }); 
       }, (error) => {
         setStatus('Failed to send message.');
       });
