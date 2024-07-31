@@ -3,8 +3,8 @@ import './Skills.css';
 
 const skillsData = [
   { id: 1, title: 'JavaScript', level: '40%', description: 'Proficient in ES6+, modern frameworks, and libraries.', image: 'https://img.icons8.com/?size=100&id=laVIsJnTtYoj&format=png&color=000000' },
-  { id: 2, title: 'React', level: '55%', description: 'Experienced with hooks, context API, and state management.', image: 'https://img.icons8.com/color/48/000000/react-native.png' },
-  { id: 3, title: 'CSS', level: '50%', description: 'Skilled in responsive design, Flexbox, and CSS Grid.', image: 'https://img.icons8.com/?size=100&id=5cVdiiKKi0vX&format=png&color=000000' },
+  { id: 2, title: 'React', level: '55%', description: 'Experienced with hooks, context API, and state management.', image: 'https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000' },
+  { id: 3, title: 'Java', level: '70%', description: 'Skilled in Java development.', image: 'https://img.icons8.com/?size=100&id=13679&format=png&color=000000' },
   { id: 4, title: 'Node.js', level: '30%', description: 'Familiar with backend development and Express.js.', image: 'https://img.icons8.com/?size=100&id=ouWtcsgDBiwO&format=png&color=000000' },
   { id: 5, title: 'Git', level: '40%', description: 'Experienced with version control, branching, and merging.', image: 'https://img.icons8.com/ios/50/000000/git.png' },
 ];
