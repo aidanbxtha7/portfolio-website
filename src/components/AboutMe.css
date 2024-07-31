@@ -111,6 +111,13 @@
     .timeline {
       padding: 0 10px;
     }
+  }
+
+    @media (max-width: 768px) {
+      .timeline-item:before {
+        left: 10px; 
+        width: 4px; 
+    }
   
     .timeline-item {
       padding-left: 20px;
