@@ -18,6 +18,9 @@ const Footer = () => {
           <i className="fas fa-envelope"></i>
         </a>
       </div>
+      <div className="footer-content">
+        <p>&copy; {new Date().getFullYear()} Aidan Botha. All rights reserved.</p>
+      </div>
     </footer>
   );
 };

@@ -9,10 +9,10 @@ const projects = [
     link: 'https://github.com/yourusername/project-one'
   },
   {
-    title: 'Project Two',
+    title: 'Portfolio Website',
     description: 'A responsive portfolio website showcasing various projects.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    link: 'https://github.com/yourusername/project-two'
+    link: 'https://github.com/aidanbxtha7/portfolio-website'
   },
   {
     title: 'Project Three',
