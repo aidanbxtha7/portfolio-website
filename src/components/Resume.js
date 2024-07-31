@@ -1,6 +1,5 @@
 import React from 'react';
-import './Resume.css'; 
-
+import './Resume.css';
 
 const Resume = () => {
   return (
@@ -52,11 +51,11 @@ const Resume = () => {
         <div className="resume-section">
           <h3>Hobbies and Interests</h3>
           <div className="skills-list">
-            <span className="skill">Coding</span>
-            <span className="skill">Padel</span>
-            <span className="skill">Gym</span>
-            <span className="skill">Music</span>
-            <span className="skill">Coffee</span>
+            <span className="skill"><i className="fas fa-code"></i>Coding</span>
+            <span className="skill"><i className="fas fa-basketball-ball"></i>Padel</span>
+            <span className="skill"><i className="fas fa-dumbbell"></i>Gym</span>
+            <span className="skill"><i className="fas fa-music"></i>Music</span>
+            <span className="skill"><i className="fas fa-coffee"></i>Coffee</span>
           </div>
         </div>
       </div>

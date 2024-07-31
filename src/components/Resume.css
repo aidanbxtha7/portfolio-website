@@ -81,9 +81,12 @@
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    align-items: center;
   }
   
   .skill {
+    display: flex;
+    align-items: center;
     background: #007bff;
     color: #ffffff;
     padding: 10px 20px;
@@ -92,3 +95,6 @@
     font-weight: bold;
   }
   
+  .skill i {
+    margin-right: 8px; 
+  }
