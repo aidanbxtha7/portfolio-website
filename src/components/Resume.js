@@ -1,5 +1,6 @@
 import React from 'react';
-import './Resume.css'; // Import CSS for styling
+import './Resume.css'; 
+
 
 const Resume = () => {
   return (
@@ -16,19 +17,19 @@ const Resume = () => {
           <h3>Experience</h3>
           <div className="resume-cards">
             <div className="resume-card">
-              <h4>Software Developer Intern</h4>
-              <p>Picksmart | 2024 - Present</p>
+              <h4>Full Time Student</h4>
+              <p>NWU | 2020 - 2024</p>
               <ul>
-                <li>Developed and maintained web applications using modern technologies.</li>
-                <li>Collaborated with cross-functional teams to deliver high-quality software solutions.</li>
+                <li>Furthered my knowledge and expertise in the field of Information Technology</li>
+                <li>Learned various programming skills as well as soft skills.</li>
               </ul>
             </div>
             <div className="resume-card">
-              <h4>Junior Developer</h4>
-              <p>Tech Innovations | 2022 - 2024</p>
+              <h4>Software Developer & Engineer</h4>
+              <p>Picksmart | 2025 - Present</p>
               <ul>
-                <li>Contributed to front-end development projects using React and Angular.</li>
-                <li>Implemented new features and fixed bugs in existing applications.</li>
+                <li>Starting my first job as a software developer and engineer at Picksmart.</li>
+                <li>I will be building innovative solutions using Java and various other technologies.</li>
               </ul>
             </div>
           </div>
@@ -41,21 +42,21 @@ const Resume = () => {
               <h4>Bachelor of Information Technology</h4>
               <p>North-West University | 2020 - 2024</p>
               <ul>
-                <li>Focused on software development, databases, and web technologies.</li>
-                <li>Participated in various coding competitions and hackathons.</li>
+                <li>Focused on software development, databases, and algorithms.</li>
+                <li>Developed my soft skills.</li>
               </ul>
             </div>
           </div>
         </div>
 
         <div className="resume-section">
-          <h3>Skills</h3>
+          <h3>Hobbies and Interests</h3>
           <div className="skills-list">
-            <span className="skill">JavaScript</span>
-            <span className="skill">CSS</span>
-            <span className="skill">Node.js</span>
-            <span className="skill">React</span>
-            <span className="skill">Angular</span>
+            <span className="skill">Coding</span>
+            <span className="skill">Padel</span>
+            <span className="skill">Gym</span>
+            <span className="skill">Music</span>
+            <span className="skill">Coffee</span>
           </div>
         </div>
       </div>

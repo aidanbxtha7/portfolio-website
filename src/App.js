@@ -17,7 +17,7 @@ const App = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 2000); // Adjust time as needed
+    const timer = setTimeout(() => setLoading(false), 1000); 
     return () => clearTimeout(timer);
   }, []);
 
@@ -31,8 +31,8 @@ const App = () => {
       <main>
       <TransitionGroup>
           <CSSTransition
-            timeout={300} // Duration of the transition
-            classNames="fade" // Class names for animation
+            timeout={300} 
+            classNames="fade" 
           >
             <div>
         <AboutMe />

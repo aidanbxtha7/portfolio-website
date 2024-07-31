@@ -8,7 +8,7 @@ const TopSection = ({ toggleTheme, theme }) => {
         <h1 className="hero-title">Hi, I'm Aidan</h1>
         <p className="hero-subtitle">I'm a future software developer, passionate about innovating technology.</p>
         <div className="cta-buttons">
-          <a href="#about" className="cta-button">About Me</a>
+          <a href="#resume" className="cta-button">Resume</a>
           <a href="#contact" className="cta-button">Contact Me</a>
         </div>
       </div>
