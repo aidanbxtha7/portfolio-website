@@ -6,19 +6,22 @@ const projects = [
     title: 'Project One',
     description: 'An innovative web application built with React and Node.js.',
     technologies: ['React', 'Node.js', 'CSS'],
-    link: 'https://github.com/yourusername/project-one'
+    link: 'https://github.com/yourusername/project-one',
+    image: 'https://via.placeholder.com/300' 
   },
   {
     title: 'Portfolio Website',
     description: 'A responsive portfolio website showcasing various projects.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    link: 'https://github.com/aidanbxtha7/portfolio-website'
+    technologies: ['React', 'CSS', 'JavaScript'],
+    link: 'https://github.com/aidanbxtha7/portfolio-website',
+    image: 'https://via.placeholder.com/300' 
   },
   {
     title: 'Project Three',
     description: 'A mobile app developed using React Native for cross-platform support.',
     technologies: ['React Native', 'Firebase'],
-    link: 'https://github.com/yourusername/project-three'
+    link: 'https://github.com/yourusername/project-three',
+    image: 'https://via.placeholder.com/300' 
   }
 ];
 
@@ -30,6 +33,7 @@ const Projects = () => {
         <div className="projects-grid">
           {projects.map((project, index) => (
             <div key={index} className="project-card">
+              <img src={project.image} alt={project.title} className="project-image" />
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <div className="technologies">
