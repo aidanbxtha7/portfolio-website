@@ -34,59 +34,59 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
 
 2. **Navigate to the project directory**:
 
-```sh
-cd your-repo-name
-```
+   ```sh
+   cd your-repo-name
+   ```
 
 3. **Install dependencies**:
 
-```sh
-npm install
-```
+   ```sh
+   npm install
+   ```
 
 4. **Start the development server**:
 
-```sh
-npm start
-```
+   ```sh
+   npm start
+   ```
 
 The app will run in development mode. Open http://localhost:3000 to view it in the browser.
 
-###Usage
+### Usage
 After starting the server, you can view and interact with the website in your browser. Explore the different sections to see more about me, my resume, my projects, my skills, and how to contact me.
 
-###Deployment
+### Deployment
 This project is hosted on GitHub Pages. To deploy your own copy, you can follow these steps:
 
 1. **Build the project**:
 
-```sh
-npm run build
-```
+   ```sh
+   npm run build
+   ```
 
 2. **Deploy to GitHub Pages**:
 
-```sh
-npm run deploy
-```
+   ```sh
+   npm run deploy
+   ```
 
 
 Make sure to update the homepage field in your package.json to point to your GitHub repository.
 
-###Contributing
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+### Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-Fork the Project.
-1. Create your Feature Branch (git checkout -b feature/AmazingFeature).
-2. Commit your Changes (git commit -m 'Add some AmazingFeature').
-3. Push to the Branch (git push origin feature/AmazingFeature).
-4. Open a Pull Request.
+1. Fork the Project.
+2. Create your Feature Branch (git checkout -b feature/AmazingFeature).
+3. Commit your changes (git commit -m 'Add some AmazingFeature').
+4. Push to the Branch (git push origin feature/AmazingFeature).
+5. Open a Pull Request.
 
  
-##License
+## License
 Distributed under the MIT License. See LICENSE for more information.
 
-##Contact
+## Contact
 Name: Aidan Botha
 Email: aidanbotha30@gmail.com
 LinkedIn: https://www.linkedin.com/in/aidanbotha777/
