@@ -1,76 +1,75 @@
 .footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 40px; /* Increased padding for a bigger footer */
-  }
-  
-  .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 30px; /* Increased gap between icons */
-    margin: 0 auto;
-  }
-  
-  .social-links a {
-    color: white;
-    font-size: 36px; /* Larger font size for icons */
-    transition: color 0.3s;
-  }
-  
-  .social-links a:hover {
-    color: #007bff; /* Color on hover */
-  }
-  
-  @media (max-width: 768px) {
-    .footer {
-      padding: 30px; /* Adjust padding for smaller screens */
-    }
-  
-    .social-links {
-      gap: 20px; /* Adjust gap for smaller screens */
-    }
-  
-    .social-links a {
-      font-size: 30px; /* Adjust icon size for smaller screens */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .footer {
-      padding: 20px; /* Further adjust padding */
-    }
-  
-    .social-links {
-      gap: 15px; /* Adjust gap for very small screens */
-    }
-  
-    .social-links a {
-      font-size: 24px; /* Adjust icon size for very small screens */
-    }
-  }
-  
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 40px; 
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px; 
+  margin: 0 auto;
+}
+
+.social-links a {
+  color: white;
+  font-size: 36px; 
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #007bff; 
+}
+
+@media (max-width: 768px) {
   .footer {
-    background-color: var(--footer-background);
-    color: var(--footer-text);
-    text-align: center;
-    padding: 40px;
+    padding: 30px; 
   }
-  
+
   .social-links {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin: 0 auto;
+    gap: 20px; 
   }
-  
+
   .social-links a {
-    color: var(--footer-text);
-    font-size: 36px;
-    transition: color 0.3s;
+    font-size: 30px; 
   }
-  
-  .social-links a:hover {
-    color: #007bff; /* Color on hover */
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 20px; 
   }
-  
+
+  .social-links {
+    gap: 15px; 
+  }
+
+  .social-links a {
+    font-size: 24px; 
+  }
+}
+
+.footer {
+  background-color: var(--footer-background);
+  color: var(--footer-text);
+  text-align: center;
+  padding: 40px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.social-links a {
+  color: var(--footer-text);
+  font-size: 36px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #007bff; 
+}
