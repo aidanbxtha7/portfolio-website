@@ -34,7 +34,7 @@
     object-fit: cover; 
     border: 5px solid #007bff;
     transition: transform 0.3s ease; 
-    transform: scale(1); 
+    transform: scale(1) translateX(-5px) translatey(-5px); 
   }
   
   .profile-pic-wrapper:hover .profile-pic {
