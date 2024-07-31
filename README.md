@@ -24,22 +24,18 @@ Make sure you have Node.js and npm installed on your machine.
 Installation
 Clone the repository:
 
-sh
 Copy code
 git clone https://github.com/your-username/your-repo-name.git
 Navigate to the project directory:
 
-sh
 Copy code
 cd your-repo-name
 Install dependencies:
 
-sh
 Copy code
 npm install
 Start the development server:
 
-sh
 Copy code
 npm start
 The app will run in development mode. Open http://localhost:3000 to view it in the browser.
@@ -52,12 +48,10 @@ This project is hosted on GitHub Pages. To deploy your own copy, you can follow 
 
 Build the project:
 
-sh
 Copy code
 npm run build
 Deploy to GitHub Pages:
 
-sh
 Copy code
 npm run deploy
 Make sure to update the homepage field in your package.json to point to your GitHub repository.
